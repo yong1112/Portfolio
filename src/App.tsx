@@ -1,5 +1,5 @@
 import { ConfigProvider } from 'antd';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import StarField from './components/StarField';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';

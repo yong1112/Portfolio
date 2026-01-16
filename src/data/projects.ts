@@ -1,0 +1,35 @@
+export const projects = [
+  {
+    title: 'Metacognitive Scaffolding System',
+    context: "Master's Research Project",
+    role: 'System Designer & Developer',
+    timeline: '8 months',
+    problem: 'Students using AI tools often bypass critical thinking, leading to shallow learning and reduced metacognitive awareness',
+    solution: 'Designed an AI-assisted learning system with embedded metacognitive prompts that scaffold reflection before, during, and after AI interaction',
+    approach: ['Literature review on metacognition and cognitive offloading', 'User-centred design with student interviews', 'Iterative prototyping with educator feedback', 'Evaluation framework based on learning outcomes'],
+    tech: ['React', 'Python', 'OpenAI API', 'PostgreSQL'],
+    impact: ['Increased student reflection time by 40%', 'Improved metacognitive awareness scores', 'Published findings in education conference'],
+  },
+  {
+    title: 'AI Tutor with Cognitive Offloading Controls',
+    context: 'Research Collaboration',
+    role: 'Lead Developer & Researcher',
+    timeline: '6 months',
+    problem: 'AI tutors often provide direct answers, reducing student agency and problem-solving practice',
+    solution: 'Built a system that adjusts AI support levels based on student performance and learning goals, preventing over-reliance',
+    approach: ['Designed adaptive scaffolding algorithm', 'Integrated learning analytics', 'Conducted A/B testing with control group', 'Analyzed cognitive load and learning transfer'],
+    tech: ['TypeScript', 'Node.js', 'Machine Learning', 'React'],
+    impact: ['Students retained 35% more knowledge', 'Reduced AI dependency in follow-up tasks', 'Framework adopted by research group'],
+  },
+  {
+    title: 'STEM Learning Analytics Dashboard',
+    context: 'University Research Lab',
+    role: 'Systems Architect',
+    timeline: '5 months',
+    problem: 'Educators lacked visibility into how students interact with AI tools and where learning breakdowns occur',
+    solution: 'Developed a real-time analytics system that surfaces metacognitive patterns and intervention opportunities',
+    approach: ['Designed data pipeline for learning interactions', 'Built visualization framework for educators', 'Integrated evidence-based intervention triggers', 'Validated with classroom deployment'],
+    tech: ['React', 'D3.js', 'Python', 'PostgreSQL'],
+    impact: ['Enabled early intervention for 200+ students', 'Reduced dropout rates in pilot courses', 'Informed curriculum redesign'],
+  }
+];

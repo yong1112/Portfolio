@@ -8,6 +8,12 @@ body {
   background: #ffffff;
   color: #090809;
   overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark {
+  background: #090809;
+  color: #ffffff;
 }
 
 a {
@@ -15,16 +21,27 @@ a {
   color: inherit;
 }
 
-.gradient-text {
-  background: linear-gradient(135deg, #9A0000 0%, #090809 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
 .glass {
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
   border: 0.5px solid rgba(154, 0, 0, 0.1);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.dark .glass {
+  background: rgba(9, 8, 9, 0.8);
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+}
+
+body.hobby {
+  background: linear-gradient(135deg, #fff5fa 0%, #ffe6f0 100%);
+  color: #d63384;
+}
+
+.hobby .glass {
+  background: rgba(255, 165, 201, 0.1);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 0.5px solid rgba(255, 165, 201, 0.3);
 }
